@@ -24,3 +24,12 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+dependencies{
+
+debugImplementation'com.huya.mobile:Uinspector-optional-glide:1.0.5'
+
+debugImplementation 'com.huya.mobile:Uinspector-optional-fresco:1.0.5'
+
+debugImplementation 'com.huya.mobile:Uinspector-optional-lottie:1.0.5'
+
+}
